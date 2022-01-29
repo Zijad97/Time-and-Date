@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #666;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.5s;
+  font-family: "Courier New", Courier, monospace;
+}
+.display {
+display: grid;
+grid-template-columns: repeat(7,auto);
+gap: 3rem;
+}
+h1 {
+  font-size: 4rem;
+  margin-bottom: 5rem;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  text-transform: capitalize;
+}
+h2 {
+  font-size: 2rem;
+  transition: color 0.5s;
+  text-align: center;
+   color: white;
+  background-color: black;
+  padding: 1.5rem;
+  border-radius: 8px;
+  width: auto;
+}
+
